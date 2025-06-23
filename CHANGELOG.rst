@@ -2,6 +2,38 @@
 Changelog for package dynamixel_hardware_interface
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.4.8 (2025-06-23)
+------------------
+* Added new model for OMY to use virtual_dxl
+* Added goal position synchronization before torque enable for OMY sync table feature
+* Contributors: Woojin Wie
+
+1.4.7 (2025-06-19)
+------------------
+* Added virtual_dxl and support for rcu
+* Contributors: Woojin Wie
+
+1.4.6 (2025-05-30)
+------------------
+* Changed dynamixel_sdk_TARGETS to dynamixel_sdk_LIBRARIES in target_link_libraries
+* Contributors: Woojin Wie
+
+1.4.5 (2025-05-30)
+------------------
+* Deprecate ament_include_dependency usage in CMakeLists.txt
+* Contributors: Wonho Yun
+
+1.4.4 (2025-05-28)
+------------------
+* Added proper command interface support with ROS2-Dynamixel interface mapping
+* Improved error handling and robustness throughout the codebase
+* Implemented per-device torque enable control (replacing global control)
+* Added support for new sensor model (sensorxel_joy)
+* Enhanced joint state-command synchronization
+* Improved parameter initialization organization
+* Added robust error handling for model file reading
+* Contributors: Woojin Wie
+
 1.4.3 (2025-04-10)
 ------------------
 * Fixed build errors
