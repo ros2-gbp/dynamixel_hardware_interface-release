@@ -10,7 +10,8 @@ max_radian	3.14159265
 Data Name	value	unit	Sign Type
 Present Velocity	0.0010471976	rad/s	signed
 Goal Velocity	0.0010471976	rad/s	signed
-Velocity Limit	0.0010471976	rad/s	signed
+Present Current	1.0	raw	signed
+Goal Current	1.0	raw	signed
 
 [control table]
 Address	Size	Data Name
@@ -22,7 +23,7 @@ Address	Size	Data Name
 9	1	Return Delay Time
 10	1	Drive Mode
 11	1	Operating Mode
-12	1	Secondary(Shadow) ID
+12	1	Secondary ID
 13	1	Protocol Type
 20	4	Homing Offset
 24	4	Moving Threshold
@@ -35,6 +36,12 @@ Address	Size	Data Name
 44	4	Velocity Limit
 48	4	Max Position Limit
 52	4	Min Position Limit
+56	1	External Port Mode 1
+57	1	External Port Mode 2
+58	1	External Port Mode 3
+59	1	External Port Mode 4
+60	1	Startup Configuration
+63	1	Shutdown
 512	1	Torque Enable
 513	1	LED Red
 514	1	LED Green
@@ -67,6 +74,10 @@ Address	Size	Data Name
 588	4	Position Trajectory
 592	2	Present Input Voltage
 594	1	Present Temperature
+600	2	External Port Data 1
+602	2	External Port Data 2
+604	2	External Port Data 3
+606	2	External Port Data 4
 878	1	Backup Ready
 168	2	Indirect Address 1
 634	1	Indirect Data 1
