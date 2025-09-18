@@ -1,3 +1,26 @@
+## dynamixel_hardware_interface (humble) - 1.4.15-1
+
+The packages in the `dynamixel_hardware_interface` repository were released into the `humble` distro by running `/usr/bin/bloom-release dynamixel_hardware_interface -t humble -r humble --edit` on `Thu, 18 Sep 2025 11:05:16 -0000`
+
+The `dynamixel_hardware_interface` package was released.
+
+Version of package(s) in repository `dynamixel_hardware_interface`:
+
+- upstream repository: https://github.com/ROBOTIS-GIT/dynamixel_hardware_interface.git
+- release repository: https://github.com/ros2-gbp/dynamixel_hardware_interface-release.git
+- rosdistro version: `1.4.14-1`
+- old version: `1.4.14-1`
+- new version: `1.4.15-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## dynamixel_hardware_interface (rolling) - 1.4.14-1
 
 The packages in the `dynamixel_hardware_interface` repository were released into the `rolling` distro by running `/usr/bin/bloom-release dynamixel_hardware_interface -t rolling -r rolling --edit` on `Mon, 08 Sep 2025 07:34:22 -0000`
