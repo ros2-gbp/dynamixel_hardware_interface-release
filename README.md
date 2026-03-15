@@ -1,3 +1,26 @@
+## dynamixel_hardware_interface (jazzy) - 1.5.2-1
+
+The packages in the `dynamixel_hardware_interface` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release dynamixel_hardware_interface -t jazzy -r jazzy --edit` on `Sun, 15 Mar 2026 22:57:11 -0000`
+
+The `dynamixel_hardware_interface` package was released.
+
+Version of package(s) in repository `dynamixel_hardware_interface`:
+
+- upstream repository: https://github.com/ROBOTIS-GIT/dynamixel_hardware_interface.git
+- release repository: https://github.com/ros2-gbp/dynamixel_hardware_interface-release.git
+- rosdistro version: `1.5.1-1`
+- old version: `1.5.1-1`
+- new version: `1.5.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## dynamixel_hardware_interface (rolling) - 1.5.1-1
 
 The packages in the `dynamixel_hardware_interface` repository were released into the `rolling` distro by running `/usr/bin/bloom-release dynamixel_hardware_interface -t rolling -r rolling --edit` on `Tue, 16 Dec 2025 08:42:15 -0000`
